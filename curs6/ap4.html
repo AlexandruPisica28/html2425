@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="./css/ap4.css">
+
+</head>
+<body>
+    <div id="container">
+    <form action="" id="myform">
+
+        <div>
+            <fieldset>
+                <legend>Card</legend>
+                <label for="card">Numar card:</label>
+                <input type="text" name="card" id="card"> <br> <br>
+
+                <label for="dataexp">Data expirare:</label>
+                <input type="date" name="dataexp" id="dataexp">
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Livrare</legend>
+                <label for="prenume">Prenume:</label>
+                <input type="text" name="prenume" id="prenume"> <br>
+                <label for="nume">Nume:</label>
+                <input type="text" name="nume" id="nume"> <br>
+                <label for="companie">Companie:</label>
+                <input type="text" name="companie" id="companie">  <br>
+                <label for="adresa">Adresa:</label>
+                <input type="text" name="adresa" id="adresa"> <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required> <br>
+                <label for="tel">Telefon:</label>
+                <input type="tel" name="tel" id="tel">
+            </fieldset>
+
+            <fieldset>
+                <legend>Adauga produsele</legend>
+                <label for="masina">Masina:</label>
+                <select name="masina" id="">
+                    <option value="1">Volvo</option>
+                    <option value="2">Opel</option>
+                    <option value="3">Dacia</option>
+                    <option value="4">BMW</option>
+                    <option value="5">Renault</option>
+                </select> <br>
+                <label for="mesaj">Mesaj:</label>
+                <textarea name="mesaj" id="mesaj"></textarea>
+            </fieldset>
+
+            <button type="submit">Trimite</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

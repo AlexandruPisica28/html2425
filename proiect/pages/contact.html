@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proiect PMS: HTML + CSS</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/form.css">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="../assets/css/table.css">
+    <link rel="icon" type="image/png" href="../assets/images/favicon (1)/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../assets/images/favicon (1)/favicon.svg" />
+    <link rel="shortcut icon" href="../assets/images/favicon (1)/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicon (1)/apple-touch-icon.png" />
+
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Alex P">
+
+</head>
+
+<body>
+    <!-- START HEADER -->
+    <header>
+        <div class="logo">
+            <img id="logo" src="../assets/images/logo.png" alt="Logo PMS">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Acasa</a></li>
+                <li><a href="./portofoliu.html">Portofoliu</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./despre.html">Despre noi</a></li>
+                <li class="active"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- STOP HEADER -->
+<main>
+    <h1>Formular de contact</h1>
+    <div id="container">
+        <form action="" id="myform">
+    
+            <div>
+                <fieldset>
+                    <legend>Card</legend>
+                    <label for="card">Numar card:</label>
+                    <input type="text" name="card" id="card"> <br> <br>
+    
+                    <label for="dataexp">Data expirare:</label>
+                    <input type="date" name="dataexp" id="dataexp">
+                </fieldset>
+            </div>
+    
+            <div>
+                <fieldset>
+                    <legend>Livrare</legend>
+                    <label for="prenume">Prenume:</label>
+                    <input type="text" name="prenume" id="prenume"> <br>
+                    <label for="nume">Nume:</label>
+                    <input type="text" name="nume" id="nume"> <br>
+                    <label for="companie">Companie:</label>
+                    <input type="text" name="companie" id="companie">  <br>
+                    <label for="adresa">Adresa:</label>
+                    <input type="text" name="adresa" id="adresa"> <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required> <br>
+                    <label for="tel">Telefon:</label>
+                    <input type="tel" name="tel" id="tel">
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Adauga produsele</legend>
+                    <label for="masina">Masina:</label>
+                    <select name="masina" id="">
+                        <option value="1">Volvo</option>
+                        <option value="2">Opel</option>
+                        <option value="3">Dacia</option>
+                        <option value="4">BMW</option>
+                        <option value="5">Renault</option>
+                    </select> <br>
+                    <label for="mesaj">Mesaj:</label>
+                    <textarea name="mesaj" id="mesaj"></textarea>
+                </fieldset>
+    
+                <button type="submit">Trimite</button>
+            </div>
+        </form>
+    </div>
+    </main>
+     </body>
