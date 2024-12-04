@@ -43,8 +43,8 @@
     </header>
     <!-- STOP HEADER -->
 <main>
-    <h1>Formular de contact</h1>
-    <div id="container">
+    <h1>Pagina de contact</h1>
+    <div id="container12">
         <form action="" id="myform">
     
             <div>
@@ -92,6 +92,54 @@
                 <button type="submit">Trimite</button>
             </div>
         </form>
-    </div>
+      </div>
+
+<h1 class="titlu1">Pagina de contact</h1>
+
+      <div>
+        <form action="" method="post" id="contact">
+            <div>
+                <label for="">Orasul</label>
+                <select name="oras" id="">
+                <option value="1">Oradea</option>
+                <option value="2">Iasi</option>
+                <option value="3">Bucuresti</option>
+                <option value="4">Cluj</option>
+            </select>
+    
+                
+            </div>
+            <div>
+                <label for="">Cursuri</label>
+                <select name="cursuri[]" id="" multiple>
+                    <option value="css">CSS</option>
+                    <option value="html">HTML</option>
+                    <option value="js">JavaScript</option>
+                    <option value="vue">VueJs</option>
+                    <option value="node">NodeJs</option>
+                </select> 
+            </div>
+            <div>
+                <label for="">Mesaj</label>
+                <textarea name="mesaj" id=""></textarea>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Program cursuri</legend>
+                    <input type="radio" name="program" id="" value="dimineata">
+                    <label for="">dimineata</label>
+                    <input type="radio" name="program" id="" value="pranz" checked>
+                    <label for="">pranz</label>
+                    <input type="radio" name="program" id="" value="seara">
+                    <label for="">seara</label>
+                </fieldset>
+            </div>
+            <div>
+                <button type="submit">Trimite datele</button>
+            </div>
+        </form>
+      </div>
     </main>
+
+    <footer></footer>
      </body>

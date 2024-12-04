@@ -1,13 +1,13 @@
-#container{
+#container12{
     width: 100%;
     max-width: 800px;
     margin: auto;
     padding: 25px;
 }
 
-label{
+#container label{
     display: inline-block;
-    width: 150px;
+    width: 100px;
     text-align: right;
 }
 fieldset{
