@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tabel1 {
+            margin: auto;
+            margin-top: 200px;
+            border: 2px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        #tabel1 tr td {
+            border: 1px blue double;
+            padding: 15px;
+            width: 120px;
+        }
+
+
+        #tabel1 tbody tr:nth-last-child(2n) {
+            background-color: rgb(183, 38, 196);
+        }
+
+        #tabel1 tbody tr:nth-last-child(2n-1) {
+            background-color: rgb(29, 80, 163);
+        }
+
+        #tabel1 tfoot tr {
+            background-color: rgb(0, 0, 0);
+            color: #ffff;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <table id="tabel1">
+
+        <tbody>
+            <tr>
+                <td>Timisoara</td>
+                <td>200</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Cluj</td>
+                <td>150</td>
+                <td>7000</td>
+            </tr>
+            <tr>
+                <td>Bucuresti</td>
+                <td>1200</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>Iasi</td>
+                <td>50</td>
+                <td>700</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>1600</td>
+                <td>12770</td>
+            </tr>
+            <tr>
+
+                <td colspan="2">Total</td>
+                <td>18770</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

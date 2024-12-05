@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* MENIU */
+        nav {
+            width: 100%;
+        }
+
+        nav>ul {
+            background-color: rgba(0, 0, 0, 0.657);
+            padding: 0;
+        }
+
+        nav>ul>li {
+            display: inline-block;
+            padding: 10px 25px;
+        
+            list-style: none;
+        }
+
+        nav>ul>li:hover, nav>ul>li.active {
+            background-color: red;
+        }
+
+
+        nav ul li a {
+            font-size: 30px;
+            color: #ffff;
+            text-decoration: none;
+        }
+
+
+        /* submeniu */
+
+        ul.submeniu {
+            text-transform: uppercase;
+            display: none;
+            list-style: none;
+            margin-left: -25pxz§;
+            padding: 0;
+        }
+       
+
+        nav>ul>li:hover>ul.submeniu {
+            display: block;
+            background-color: rgb(214, 22, 22);
+            clear: both;
+            margin-top: 12px;
+            position: absolute;
+            width: 260px;
+            padding: 0;
+            
+            
+
+        }
+        nav>ul>li:hover>ul.submeniu  li {
+        padding: 0px;
+        }
+
+        ul.submeniu>li>a {
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+
+        ul.submeniu>li:hover {
+            background-color: red;
+            color: #ffff;
+        }
+
+        nav>ul>li:hover>ul.submeniu>li {
+            padding: 7px 5px 7px 5px
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="active"><a href="">Acasa</a></li>
+                <li>
+                    <a href="">Blog</a>
+                    <ul class="submeniu">
+                        <li><a href="http://" target="_blank">Lista</a></li>
+                        <li><a href="http://" target="_blank">Paragrafe</a></li>
+                        <li><a href="http://" target="_blank">Numar</a></li>
+                        <li><a href="http://" target="_blank">Tabel</a></li>
+                        <li><a href="http://" target="_blank">Formular</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Portofoliu</a></li>
+                <li><a href="">Despre noi</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugit, assumenda cumque excepturi minima laudantium esse asperiores quod minus atque at voluptas sequi, sapiente praesentium, sint nulla? Quae voluptates harum rem. Blanditiis odio accusamus culpa ipsam fugit tempora maxime magni deserunt quas ipsum veniam error tempore, nisi iure! Laudantium, autem.</p>
+        <p>Praesentium accusantium in cum fuga vero debitis aperiam id, quos, omnis nostrum porro eius eum placeat magni beatae pariatur quas maxime qui a quisquam atque. Laudantium libero quia tenetur ipsam, quod quidem velit nihil, rem alias aspernatur obcaecati ipsa nisi eum officiis, dicta et voluptatem? Asperiores itaque inventore voluptatem tempore.</p>
+        <p>Sequi ut impedit atque incidunt architecto quasi! Voluptates laboriosam tenetur officiis quasi incidunt dolore, sint mollitia neque beatae enim, quibusdam aliquam excepturi fugit impedit. Error qui molestias explicabo esse sapiente quis vitae quia voluptatem perspiciatis quos in dolorum eum officia voluptates, fugiat consequuntur, aliquam culpa, illum alias id deleniti! Tempore.</p>
+        <p>Rerum tenetur excepturi similique eos a quos commodi quis, dolore sequi aspernatur nemo minima ea culpa reprehenderit? Provident ad, dolores at sequi obcaecati quas quisquam error nisi, iure ab accusantium suscipit dignissimos mollitia modi laudantium! Maiores ducimus praesentium, ex amet blanditiis cupiditate eos a odio quae, quibusdam laborum laudantium quaerat?</p>
+        <p>Voluptate quisquam odit debitis earum, neque sed quaerat. Perspiciatis, omnis delectus ea maxime laboriosam voluptatum in non modi similique? Fugit alias nisi dolores sed fugiat eius natus deserunt labore a. Rem veritatis deserunt maxime perferendis quidem doloremque minima quos nesciunt dolorum. Vero nulla et corrupti sit ullam corporis obcaecati minus.</p>
+    </main>
+</body>
+
+</html>
